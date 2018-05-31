@@ -31,10 +31,10 @@ fetchFromApi(10).then(function(result) {
     console.log('====================================');
     console.log('Response for 10');
     console.log(result);
-    console.log('====================================')
+    console.log('====================================');
 }, function(err) {
     console.log('====================================');
     console.error('Error for 10');
     console.error(err);
-    console.log('====================================')
+    console.log('====================================');
 });
