@@ -38,3 +38,5 @@ fetchFromApi(10).then(function(result) {
     console.error(err);
     console.log('====================================');
 });
+
+console.log('I am not waiting for posts to arrive from the API');
